@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rechner für Mehrwertsteuer</title>
+</head>
+
+<body>
+    <main>
+        <!-- Main Headline -->
+        <h1>Mehrwertsteuer-Rechner</h1>
+        <form onsubmit="return false">
+
+            <!------------------------- Calculation Part ------------------------->
+            <section class="calculation">
+
+                <!-- VAT plus or minus -->
+                <article class="vatPlusMinus">
+                    <p>Was soll berechnet werden?</p>
+                    <div>
+                        <input type="radio" name="vat" id="" value="true" checked onchange="changeText()">
+                        <label for="vatPlus">Mehrwertsteuer aufschlagen (Netto zu Brutto)</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="vat" id="" value="false" onchange="changeText()">
+                        <label for=" vatMinus">Mehrwertsteuer abziehen (Brutto zu Netto)</label>
+                    </div>
+                </article>
+                <!-- VAT rates -->
+                <article class="vatRates">
+                    <p>Mehrwertsteuersatz</p>
+                    <input type="radio" name="vatRate" id="vat19" value="0.19" checked>
+                    <label for="vat19">19 %</label>
+                    <input type="radio" name="vatRate" id="vat7" value="0.07">
+                    <label for="vat19">7 %</label>
+                </article>
+                <!-- Your amount -->
+                <article>
+                    <label id="onChangeAmount1" for="">Nettobetrag (Preis ohne Mehrwertsteuer) in Euro*</label>
+                    <input type="number" name="yourAmount" id="yourAmount">
+                </article>
+                <!-- Button -->
+                <button onclick="calculate()">Berechnen</button>
+            </section>
+
+
+            <!-------------------------- Result Part ------------------------->
+            <section class="result">
+                <h2>Ergebnis</h2>
+                <!-- VAT amount -->
+                <article>
+                    <p>Mehrwertsteuerbetrag</p>
+                    <h4 id="mwstBetrag"></h4>
+                </article>
+                <!-- Gross amount -->
+                <article>
+                    <p id="onChangeAmount2">Bruttobetrag (Endpreis)</p>
+                    <h4 id="final">Ergebnis</h4>
+                </article>
+            </section>
+        </form>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
