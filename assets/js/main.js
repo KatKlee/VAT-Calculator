@@ -43,7 +43,7 @@ function calculate() {
 const multi = () => {
     const price = Number(yourAmount.value)
 
-    if (vatRates[0].checked == 'true') {
+    if (vatRates[0].checked == true) {
         return price * 1.19
 
     } else {
@@ -55,7 +55,7 @@ const multi = () => {
 const division = () => {
     const price = (Number(yourAmount.value))
 
-    if (vatRates[0].checked == 'true') {
+    if (vatRates[0].checked == true) {
         return price / 1.19
     } else {
         return price / 1.07
@@ -65,7 +65,7 @@ const division = () => {
 const MehrwertsteuerBetrag = () => {
     const price = (Number(yourAmount.value))
 
-    if (vatRates[0].checked == 'true') {
+    if (vatRates[0].checked == true) {
         return price * 0.19
     } else {
         return price * 0.07
