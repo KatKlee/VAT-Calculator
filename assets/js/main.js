@@ -13,16 +13,6 @@ const nettoResultText = 'Bruttobetrag (Endpreis)'
 const bruttoResultText = 'Nettobetrag'
 
 
-function calculate() {
-    console.log(vatRates[0].checked)
-}
-
-
-/* function netto() {
-    console.log(Number(netAmount.value))
-} */
-
-
 function changeText() {
     if (vatPlusMinus.value == 'true') {
         text1.innerHTML = nettoText
