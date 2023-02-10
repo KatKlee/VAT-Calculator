@@ -1,4 +1,4 @@
-##VAT Calculator
+## VAT Calculator
 
 Eine Anwendung zur Berechnung der Mehrwertsteuer. Ein Frontend-Projekt unter Verwendung von JavaScript für die Funktionalitäten.
 
@@ -12,9 +12,7 @@ Version 2.0:
 
 
 *An application for calculating value added tax. A front-end project using JavaScript for the functionalities.
-
 Calculations for two tax rates (19% and 7%) and from net to gross and vice versa.
-
 Content and structure according to a given example. The design has not been considered here so far, as the focus was on functionality.*
 
 *Version 2.0:  
