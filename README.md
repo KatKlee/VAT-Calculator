@@ -11,9 +11,11 @@ Version 2.0:
 – responsive Umsetzung
 
 
-*An application for calculating value added tax. A front-end project using JavaScript for the functionalities.
-Calculations for two tax rates (19% and 7%) and from net to gross and vice versa.
-Content and structure according to a given example. The design has not been considered here so far, as the focus was on functionality.*
+*An application for calculating value added tax. A front-end project using JavaScript for the functionalities.*
+
+*Calculations for two tax rates (19% and 7%) and from net to gross and vice versa.*
+
+*Content and structure according to a given example. The design has not been considered here so far, as the focus was on functionality.*
 
 *Version 2.0:  
 – appealing and user-friendly design  
