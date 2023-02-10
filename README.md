@@ -1,4 +1,4 @@
-## VAT Calculator
+## Mehrwertsteuer-Rechner <br>VAT Calculator
 
 Eine Anwendung zur Berechnung der Mehrwertsteuer. Ein Frontend-Projekt unter Verwendung von JavaScript für die Funktionalitäten.
 
